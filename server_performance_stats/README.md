@@ -1,5 +1,5 @@
 # Статистика производительности сервера
-Bash-скрипт для анализа базовой статистики производительности сервера.
+скрипт для анализа базовой статистики производительности сервера.
 
 ## Результат работы
 Выводит в CLI информацию о:
@@ -8,7 +8,7 @@ Bash-скрипт для анализа базовой статистики пр
 - Информацию дисковом пространстве: Максимальная, использовано, свободно, занято в %
 - Топ 5 процессов отсортированных по ОЗУ
 
-## Getting Started
+## Getting Started for python-script
 1. **Клонировать репозисторий**
     ```
     git clone https://github.com/EnderIO1710/devops.git .
@@ -23,4 +23,19 @@ Bash-скрипт для анализа базовой статистики пр
     ```
     cd server_performance_stats
     python server_stat.py
+    ```
+
+## Getting Started for bash-script
+1. **Клонировать репозисторий**
+    ```
+    git clone https://github.com/EnderIO1710/devops.git .
+    cd server_performance_stats
+    ```
+2. **Сделать скрипт исполняемым**
+    ```
+    chmod +x server_stat.sh
+    ```
+3. **Запуск**  
+    ```
+    bash ./server_stat.sh
     ```
